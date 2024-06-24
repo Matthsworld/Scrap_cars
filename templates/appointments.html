@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Booked Appointments</h1>
+<ul>
+    {% for appointment in appointments %}
+    <li>
+        <strong>{{ appointment.name }}</strong><br>
+        Email: {{ appointment.email }}<br>
+        Phone: {{ appointment.phone }}<br>
+        Appointment Date: {{ appointment.appointment_date }}<br>
+        Message: {{ appointment.message }}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
+
