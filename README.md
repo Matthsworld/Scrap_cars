@@ -45,6 +45,7 @@ The application will be available at `http://127.0.0.1:5000/`.
 
 Scrap_cars/
 │
+|
 ├── app.py
 ├── models.py
 ├── templates/
